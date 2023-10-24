@@ -7,4 +7,5 @@ phases:
       - apt-get install -y nmap curl
   build:
     commands:
+      - docker images
       - curl -sL https://google.com
